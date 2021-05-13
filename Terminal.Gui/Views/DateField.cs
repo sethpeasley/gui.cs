@@ -20,7 +20,7 @@ namespace Terminal.Gui {
 	public class DateField : TextField {
 		DateTime date;
 		bool isShort;
-		int longFieldLen = 10;
+		private readonly int longFieldLen = 10;
 		int shortFieldLen = 8;
 		string sepChar;
 		string longFormat;
